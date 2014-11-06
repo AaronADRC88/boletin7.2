@@ -22,7 +22,7 @@ public class RestaOsuma {
       public void comparacion (short num1, short num2){
         if (num1>=num2){
             
-            JOptionPane.showMessageDialog(null, "1º-2º= " + (num1-num2));
+            JOptionPane.showMessageDialog(null, "1º-2º= " + (num1-num2)+"\n"+"1º+2º= "+(num1+num2));
         }
         else{
             JOptionPane.showMessageDialog(null, "1º+2º= " + (num1+num2));
